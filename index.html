@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx Tester</title>
+</head>
+
+<body>
+    <h1>RegEx Tester</h1>
+    <hr>
+
+    <p>
+        <label for="regex-input">Regular Expression:</label><br>
+        <input type="text" id="regex-input" aria-label="Enter Regular Expression" required>
+    </p>
+
+    <p>
+        <label for="test-input">Test Input:</label><br>
+        <input type="text" id="test-input" aria-label="Enter Test Input String" required>
+    </p>
+
+    <div>
+        <button id="submit-button" aria-label="Submit for testing">Submit</button>
+        <button id="clear-button" aria-label="Clear fields and results">Clear</button>
+    </div>
+
+    <div id="result" role="region" aria-live="polite"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
